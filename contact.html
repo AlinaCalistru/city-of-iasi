@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>City Of Iasi</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<a class="logo" href="#">
+			<img src="images/logo.png" alt="Iasi" title="Iasi" />
+		</a>
+		<div class="header-right">
+			<div id="social-media">
+				<a id="email" href="mailto:alina.e.calistru@gmail.com"><i class="fas fa-envelope-square"></i></a>
+				<a id="tw" href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+				<a id="fb" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+			</div>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html" >Home</a></li>
+					<li><a href="nice-to-visit.html" >Nice to Visit</a></li>
+					<li><a href="things-to-do.html" >Things To Do</a></li>
+					<li><a href="family-breaks.html" >Family Breaks</a></li>
+					<li class="current"><a href="contact.html" >Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+
+<div class="wrapper">
+	<div class="container">
+	<section id="contact-form">
+		<div>
+			<h3>Contact us:</h3>
+			<form id="form1" method="post" action="http://www.codeschool.ie/php/sendEmail.php">
+				<div>
+					<!--<label>Name:</label>-->
+					<input type="text"  name="name"placeholder="Name:" required>
+				</div>
+				<div>
+					<!--<label>Email:</label>-->
+					<input type="email" name="email" placeholder="Email Address" required>
+				</div>
+				<div>
+					<!--<label>Message:</label>-->
+					<textarea name="message" rows="4"placeholder="Message"required ></textarea>
+				</div>
+				<button type="submit" name="submit" value="submit">Send</button>
+			</form>
+		</div>
+		<div>
+			<h3>Find us here: </h3>
+			<div id="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5426.078033108271!2d27.583328157648843!3d47.15709026703784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafb9e838d0e41%3A0xc775fdc2806cd62c!2sCentru%2C+Ia%C8%99i%2C+Romania!5e0!3m2!1sen!2sie!4v1551960085829" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	</div>
+</div>
+
+<footer>
+	<div class="container">
+		<p>&copy; 2019 City Of Iasi, All rights reserved</p>
+	</div>
+</footer>
+
+</body>
+</html>
